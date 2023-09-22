@@ -63,7 +63,7 @@ function checkWinner() {
         stutsText.textContent = `${currentPlayer}'s Win!`;
         roundWon = false;
     }else if (!option.includes("")) {
-        stutsText.textContent = `Click The Fucking Restart Button`;
+        stutsText.textContent = `Draw! `;
         running = false;
     } else {
         changePlayer();
